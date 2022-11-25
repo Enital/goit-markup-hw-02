@@ -14,14 +14,15 @@ body {
 .top{
   background-color: var(--onlywhite);
 }
+
+.logo{
+  color: var(--primecolor);
+}
 .logotitle{
   font-family: 'Raleway';
   color: var(--darkcolor);
   font-size: 18px;
   line-height: 133%;
-}
-.logo{
-  color: var(--primecolor);
 }
 .nav-text{
   font-family: Roboto;
@@ -100,6 +101,6 @@ body {
   color:var(--accentcolor);
   background-color: var(--darkcolor);
 }
-.footerlogo{
+.footer-studio{
   color: var(--onlywhite);
 }
