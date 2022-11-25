@@ -1,37 +1,105 @@
-body {
-  color: #000000;
-  font-family: "Roboto";
+:root{
+  --primecolor:#4d5ae5;
+  --seccolor:#404bbf;
+  --darkcolor:#2e2f42;
+  --textcolor:#434455;
+  --onlywhite:#ffffff;
+  --accentcolor:#e7e9fc;
+  --cloudcolor:#f4f4fd;
 }
-
-/* .pointer {
-  cursor: pointer;
-} */
+body {
+  color: var(--darkcolor);
+  font-family: 'Roboto', sans-serif;;
+}
+.top{
+  background-color: var(--onlywhite);
+}
+.logotitle{
+  font-family: 'Raleway';
+  color: var(--darkcolor);
+  font-size: 18px;
+  line-height: 133%;
+}
+.logo{
+  color: var(--primecolor);
+}
+.nav-text{
+  font-family: Roboto;
+  font-weight: 600;
+  color: var(--textcolor);
+  font-size: 16px;
+  line-height: 150%;
+}
+.nav-text:visited{
+  color: var(--textcolor);
+}
+.logo{
+  color: var(--primecolor);
+}
 .list {
   list-style: none;
 }
 
-a {
-  color: #000;
+.adress {
+  color: var(--textcolor);
   text-decoration: none;
+  font-size: 16px;
+  line-height: 150%;
 }
 
-a:hover {
-  color: #404bbf;
+.adress:hover {
+  color: var(--seccolor);
 }
 
-.a:focus {
-  color: #4d5ae5;
+.adress:focus {
+  color: var(--primecolor);
 }
-
+.adress:active{
+  color: var(--seccolor);
+}
+.adress .link:visited{
+  color: var(--textcolor);
+}
+.title{
+  font-size: 56px;
+  line-height: 107%;
+  color: var(--onlywhite);
+}
 .buttons {
-  background-color: #4d5ae5;
-  color: #ffffff;
+  background-color: var(--primecolor);
+  color: var(--onlywhite);
   cursor: pointer;
+  font-size: 16px;
+
 }
 .buttons:hover {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--seccolor);
+  color: var(--onlywhite);
 }
 
-/* #E5E5E5 background first */
-/* #F4F4FD background second */
+.text-h{
+  font-size: 20px;
+  line-height:120%;
+}
+.text-p{
+  font-size: 16px;
+  line-height: 150%;
+}
+.texthsec{
+   font-size: 36px;
+   line-height: 111%;
+}
+.secfirst{
+  background-color: var(--darkcolor);
+}
+.secfourth{
+  background-color: var(--cloudcolor);
+}
+
+.footer{
+  color:var(--accentcolor);
+  background-color: var(--darkcolor);
+}
+.footerlogo{
+  color: var(--onlywhite);
+}
