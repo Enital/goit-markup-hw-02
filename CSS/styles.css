@@ -7,11 +7,13 @@
   --accent-color: #e7e9fc;
   --cloud-color: #f4f4fd;
 }
+
 body {
   color: var(--darkcolor);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
 }
+
 .top {
   background-color: var(--only-white);
 }
@@ -27,6 +29,7 @@ body {
   line-height: 133%;
   letter-spacing: 0.03em;
 }
+
 .nav-link {
   text-decoration: none;
 }
